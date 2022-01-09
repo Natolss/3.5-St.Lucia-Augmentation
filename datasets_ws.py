@@ -52,7 +52,7 @@ def collate_fn(batch):
 class BaseDataset(data.Dataset):
     """Dataset with images from database and queries, used for inference (testing and building cache).
     """
-    def __init__(self, args, datasets_folder="datasets", dataset_name="pitts30k", split="train"):
+    def __init__(self, args, datasets_folder="datasets", dataset_name="st_lucia", split="train"):
         super().__init__()
         self.args = args
         self.dataset_name = dataset_name
