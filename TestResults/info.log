@@ -1,0 +1,5 @@
+2022-01-09 22:22:12   Arguments: Namespace(cache_refresh_rate=1000, datasets_folder='/content/st_lucia', device='cuda', epochs_num=50, exp_name='default', infer_batch_size=16, lr=1e-05, margin=0.1, neg_samples_num=1000, negs_num_per_query=10, num_workers=8, output_folder='runs/default/2022-01-09_22-22-12', patience=3, queries_per_epoch=5000, recall_values=[1, 5, 10, 20], seed=0, train_batch_size=4, train_positives_dist_threshold=10, val_positive_dist_threshold=25)
+2022-01-09 22:22:12   The outputs are being saved in runs/default/2022-01-09_22-22-12
+2022-01-09 22:22:12   Using 1 GPUs and 2 CPUs
+2022-01-09 22:22:12   Test set: < BaseDataset, st_lucia - #database: 1549; #queries: 1464 >
+2022-01-09 22:23:16   Recalls on < BaseDataset, st_lucia - #database: 1549; #queries: 1464 >: R@1: 43.0, R@5: 62.6, R@10: 70.7, R@20: 77.4
